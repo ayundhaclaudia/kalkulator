@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
   
-    IMAGE_NAME = 'ayundha/calculator-simpleee'
+    IMAGE_NAME = 'ayundha/calculator'
  
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
