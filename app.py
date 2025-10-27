@@ -3,7 +3,7 @@ from datetime import timedelta
 import math
 
 app = Flask(__name__)
-app.secret_key = "ridho_secret_key"
+app.secret_key = "ayu_secret_key"
 app.permanent_session_lifetime = timedelta(minutes=10)
 
 @app.route('/')
